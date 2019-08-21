@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javafx.geometry.Insets;
+
 import javafx.geometry.Pos;
 import javafx.scene.control.ColorPicker;
 import javafx.scene.control.ComboBox;
@@ -19,7 +19,7 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.GridPane;
+
 import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
@@ -111,10 +111,10 @@ public class BorderPaneTop {
 
         MenuItem save = new MenuItem("kaydet");
         MenuItem open = new MenuItem("aç");
-        MenuItem item3 = new MenuItem("yazdır");
+//        MenuItem item3 = new MenuItem("yazdır");
         save.setOnAction(e -> kaydet());
         open.setOnAction(e -> dosyaAc());
-        menu1.getItems().addAll(save, open, item3);
+        menu1.getItems().addAll(save, open);
         borderPane.setTop(vb);
 
     }
