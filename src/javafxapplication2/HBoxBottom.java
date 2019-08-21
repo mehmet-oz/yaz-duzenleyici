@@ -1,13 +1,10 @@
 package javafxapplication2;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
 import javafx.scene.layout.HBox;
-
 import yazimHatalari.SpellingCorrector;
 
 public class HBoxBottom {
